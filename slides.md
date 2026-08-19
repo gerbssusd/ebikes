@@ -75,7 +75,7 @@ css: unocss
 
 <div class="flex flex-col items-center justify-center h-full">
   <div class="icon-badge mb-6" style="width:96px;height:96px;font-size:52px;">
-    <lucide-bike />
+    <Icon name="bike" />
   </div>
   <h1 class="text-5xl font-bold mb-4" style="color: var(--caution-2)">
     E-Bike & E-Scooter Safety
@@ -108,7 +108,7 @@ transition: fade
 
 </div>
 <div class="flex justify-center">
-  <lucide-zap :class="'text-8xl'" style="color: var(--caution)" />
+  <Icon name="zap" size="6rem" style="color: var(--caution)" />
 </div>
 </div>
 
@@ -120,7 +120,7 @@ transition: fade
 <!-- SLIDE 3: KEY MESSAGE -->
 
 <div class="text-center">
-  <lucide-gauge style="font-size: 4rem; color: var(--stop);" class="mb-6 mx-auto" />
+  <Icon name="gauge" size="4rem" style="color: var(--stop);" class="mb-6 mx-auto" />
   <p class="text-2xl opacity-70 mb-2">The most important thing to remember:</p>
   <h1 class="text-4xl font-bold leading-tight" style="color: var(--caution-2)">
     Your e-bike or e-scooter<br/>can go faster than you think.
@@ -138,7 +138,7 @@ transition: slide-left
 <!-- SLIDE 4: HELMET -->
 
 <div class="flex items-start gap-6">
-  <div class="icon-badge go"><lucide-hard-hat /></div>
+  <div class="icon-badge go"><Icon name="hard-hat" size="32px" /></div>
   <div>
     <h1 class="text-3xl font-bold">Wear a Helmet</h1>
     <p class="text-lg opacity-60">Every ride. Every time.</p>
@@ -157,7 +157,7 @@ transition: slide-left
 <!-- SLIDE 5: SLOW DOWN -->
 
 <div class="flex items-start gap-6">
-  <div class="icon-badge"><lucide-turtle /></div>
+  <div class="icon-badge"><Icon name="turtle" size="32px" /></div>
   <div>
     <h1 class="text-3xl font-bold">Slow Down</h1>
     <p class="text-lg opacity-60">Speed kills the margin for error</p>
@@ -177,7 +177,7 @@ transition: slide-left
 <!-- SLIDE 6: PAY ATTENTION -->
 
 <div class="flex items-start gap-6">
-  <div class="icon-badge"><lucide-eye /></div>
+  <div class="icon-badge"><Icon name="eye" size="32px" /></div>
   <div>
     <h1 class="text-3xl font-bold">Pay Attention</h1>
     <p class="text-lg opacity-60">Eyes up, phone away</p>
@@ -197,7 +197,7 @@ transition: slide-left
 <!-- SLIDE 7: RULES OF THE ROAD -->
 
 <div class="flex items-start gap-6">
-  <div class="icon-badge"><lucide-traffic-cone /></div>
+  <div class="icon-badge"><Icon name="traffic-cone" size="32px" /></div>
   <div>
     <h1 class="text-3xl font-bold">Follow the Rules of the Road</h1>
     <p class="text-lg opacity-60">You're a vehicle — act like one</p>
@@ -217,7 +217,7 @@ transition: slide-left
 <!-- SLIDE 8: DON'T MODIFY -->
 
 <div class="flex items-start gap-6">
-  <div class="icon-badge stop"><lucide-wrench /></div>
+  <div class="icon-badge stop"><Icon name="wrench" size="32px" /></div>
   <div>
     <h1 class="text-3xl font-bold">Don't Modify Your Ride to Go Faster</h1>
     <p class="text-lg opacity-60">Built-in limits exist for a reason</p>
@@ -238,7 +238,7 @@ transition: slide-left
 <!-- SLIDE 9: DON'T RIDE DISTRACTED -->
 
 <div class="flex items-start gap-6">
-  <div class="icon-badge"><lucide-headphones /></div>
+  <div class="icon-badge"><Icon name="headphones" size="32px" /></div>
   <div>
     <h1 class="text-3xl font-bold">Don't Ride Distracted</h1>
     <p class="text-lg opacity-60">Your attention is your safety system</p>
@@ -257,7 +257,7 @@ transition: slide-left
 <!-- SLIDE 10: PEER PRESSURE -->
 
 <div class="flex items-start gap-6">
-  <div class="icon-badge stop"><lucide-users /></div>
+  <div class="icon-badge stop"><Icon name="users" size="32px" /></div>
   <div>
     <h1 class="text-3xl font-bold">Don't Let Friends Talk You Into Risks</h1>
     <p class="text-lg opacity-60">Cool for seconds, costly for life</p>
@@ -282,12 +282,12 @@ transition: fade
 <div class="grid grid-cols-2 gap-x-10 gap-y-2 max-w-3xl mx-auto">
 <v-clicks>
 
-<div class="checklist-item"><lucide-square-check style="color: var(--go)" /> Is my helmet on?</div>
-<div class="checklist-item"><lucide-square-check style="color: var(--go)" /> Are my brakes and tires working?</div>
-<div class="checklist-item"><lucide-square-check style="color: var(--go)" /> Can I see and be seen?</div>
-<div class="checklist-item"><lucide-square-check style="color: var(--go)" /> Am I riding at a safe speed?</div>
-<div class="checklist-item"><lucide-square-check style="color: var(--go)" /> Am I following the rules?</div>
-<div class="checklist-item"><lucide-square-check style="color: var(--go)" /> Am I paying attention?</div>
+<div class="checklist-item"><Icon name="square-check" size="1.2rem" style="color: var(--go)" /> Is my helmet on?</div>
+<div class="checklist-item"><Icon name="square-check" size="1.2rem" style="color: var(--go)" /> Are my brakes and tires working?</div>
+<div class="checklist-item"><Icon name="square-check" size="1.2rem" style="color: var(--go)" /> Can I see and be seen?</div>
+<div class="checklist-item"><Icon name="square-check" size="1.2rem" style="color: var(--go)" /> Am I riding at a safe speed?</div>
+<div class="checklist-item"><Icon name="square-check" size="1.2rem" style="color: var(--go)" /> Am I following the rules?</div>
+<div class="checklist-item"><Icon name="square-check" size="1.2rem" style="color: var(--go)" /> Am I paying attention?</div>
 
 </v-clicks>
 </div>
@@ -304,7 +304,7 @@ transition: fade
 <!-- SLIDE 12: CLOSING -->
 
 <div class="text-center">
-  <lucide-shield-alert style="font-size: 4rem; color: var(--stop);" class="mb-6 mx-auto" />
+  <Icon name="shield-alert" size="4rem" style="color: var(--stop);" class="mb-6 mx-auto" />
   <h1 class="text-3xl font-bold mb-4" style="color: var(--caution-2)">
     You don't get a reset button after a serious crash.
   </h1>
