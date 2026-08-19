@@ -1,0 +1,20 @@
+/* styles/table.css */
+.fancy-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.fancy-table th, .fancy-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.fancy-table th {
+  background-color: #4A90E2;
+  color: white;
+  text-align: left;
+}
+
+.fancy-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
