@@ -315,7 +315,9 @@ transition: fade
 </div>
 
 ---
+layout: full
+---
 
-<Youtube id="ZykdMe0aATM" />
+<Youtube id="ZykdMe0aATM" width="100%" height="100%"/>
 
 ---
