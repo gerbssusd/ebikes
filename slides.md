@@ -315,8 +315,3 @@ transition: fade
   </p>
 </div>
 
----
-
-<Youtube id="ZykdMe0aATM" />
-
----
