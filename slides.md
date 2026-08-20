@@ -1,6 +1,7 @@
 ---
 theme: default
 background: "#0b1220"
+favicon: Maxfav.png
 title: E-Bike & E-Scooter Safety
 info: |
   E-Bike & E-Scooter Safety Message for Secondary Students
